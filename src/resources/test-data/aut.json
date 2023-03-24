@@ -1,6 +1,13 @@
 {
     "applications": {
-        "dev":"https://demo.nopcommerce.com/",
-        "type":"web"
+        "dev":{
+            "host":"https://demo.nopcommerce.com/",
+            "type":"web"
+        },
+        "pages_urls":{
+            "dashboard": "",
+            "login":"login"
+        }
+        
     }
 }
