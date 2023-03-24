@@ -1,7 +1,7 @@
 import { Given, When, Then } from '@wdio/cucumber-framework';
 
-import LoginPage from '../pageobjects/login.page.ts';
-import SecurePage from '../pageobjects/secure.page.ts';
+import LoginPage from '../../src/pageobjects/login.page.ts';
+import SecurePage from '../../src/pageobjects/secure.page.ts';
 
 const pages = {
     login: LoginPage

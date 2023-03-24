@@ -1,0 +1,6 @@
+{
+    "applications": {
+        "dev":"https://demo.nopcommerce.com/",
+        "type":"web"
+    }
+}
