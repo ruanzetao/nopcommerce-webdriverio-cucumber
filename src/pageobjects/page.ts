@@ -15,8 +15,11 @@ export default class Page {
     constructor(){
         this.env=TEST_ENVIRONMENT;
     }
-    public open (path: string) {
-        var url=App.applications.dev[this.env].host;
+    public open (...args: string[]): Promise<string> {
+        var page=args[0];
+        var url=App.applications.dev[this.env].pages_urls[page];
+
+        console.log("Open URL: " + url);
         return browser.url(url);
     }
 }

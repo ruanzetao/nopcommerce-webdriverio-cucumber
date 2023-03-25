@@ -2,6 +2,6 @@
 Feature: The Dashboad of NopCommerce website
 
     @dashboard_TC1
-  Scenario Outline: As a user, I can go to the Dashboad of NopCommerce
+  Scenario Outline: TC01_As a user, I can go to the Dashboard of NopCommerce
 
-    When I go to the dashboard page
+    Given I go to the "dashboard" page
