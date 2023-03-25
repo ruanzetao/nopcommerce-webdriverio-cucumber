@@ -9,6 +9,6 @@ const pages = {
 }
 
 
-Given(/^I go to the "dashboard" page$/, async () => {
-    await DashboardPage.open();
+Given(/^I am on Dashboard page$/, async () => {
+    await Page.open();
 });

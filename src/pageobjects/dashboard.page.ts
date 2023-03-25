@@ -17,7 +17,7 @@ class DashboardPage extends Page {
     /**
      * overwrite specific options to adapt it to page object
      */
-    public open () {
+    public open():Promise<string> {
         return super.open('dashboard');
     }
 }
