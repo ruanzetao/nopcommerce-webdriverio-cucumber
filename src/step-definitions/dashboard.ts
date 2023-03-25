@@ -7,6 +7,7 @@ const pages = {
     dashboard: DashboardPage
 }
 
+
 Given(/^I go to the dashboard page$/, async (page) => {
     await pages['dashboard'].open();
 });
