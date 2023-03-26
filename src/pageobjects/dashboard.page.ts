@@ -1,6 +1,6 @@
 import { ChainablePromiseElement } from 'webdriverio';
 
-import Page from '../pageobjects/page';
+import Page from './page';
 
 class DashboardPage extends Page {
     /**
